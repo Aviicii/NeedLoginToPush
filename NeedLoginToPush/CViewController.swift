@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CViewController.swift
 //  NeedLoginToPush
 //
 //  Created by Avicii on 2024/8/1.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CViewController: UIViewController, RequiresAuthentication {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
 
-
 }
-
